@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Resetting defaults and setting a playful font */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #a2d2ff;
+    background-image: url('background-image.jpg'); 
+    /* Add a fun background image */
+    background-size: cover;
+}
+
+/* Styling for the main heading */
+h1 {
+    background-color: #ffafcc;
+    color: #3d405b; 
+    /* Dark blue text */
+    padding: 20px;
+    margin: 0;
+    font-size: 32px;
+     /* Larger font size for the heading */
+    border-bottom: 10px solid #f4acb7; 
+    /* Adding a border for a layered effect */
+    border-radius: 20px; 
+    margin-bottom: 80px; 
+    /* Adding more space below the buttons */
+}
+
+/* Container for buttons */
+#buttons-container {
+    display: flex; 
+    /* Using flexbox to align buttons horizontally */
+    justify-content: center; 
+    flex-wrap: wrap; 
+    /* Allowing buttons to wrap onto the next line */
+    gap: 20px; 
+    margin: 20px auto;
+    margin-bottom: 80px; 
+}
+
+/* Styling for buttons */
+button {
+    padding: 15px 25px;
+     /* Larger padding for a chunky button look */
+    font-size: 20px; 
+    /* Larger font size for readability */
+    cursor: pointer;
+    background-color: #ffcbf2;
+    color: #3d405b; 
+    border: none;
+    border-radius: 20px; 
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease; 
+    /* Smooth transform on click */
+}
+
+button:active {
+    transform: scale(0.95); 
+    /* Slightly shrinking the button when clicked */
+}
+
+button:hover {
+    background-color: #ffd7e9;
+     /* A slightly darker pink on hover */
+}
+
+/* Styling for story output */
+#story-output {
+    margin: 40px auto; 
+    font-size: 24px; 
+    /* Larger font size for the story text */
+    color: #2f388b; 
+    font-weight: bold;
+    background-color: #fff; 
+    /* White background for the text area */
+    border-radius: 50px; 
+    padding: 30px; 
+    /* Padding inside the text area */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); 
+}
